@@ -75,17 +75,11 @@ c0="${reset}${bold}${yellow}"       # first color
 
 cat <<EOF
 
-${white}             __________     _     __
-${blue}  __________/ ____/ __ \   (_)___/ /__
-${magenta} / ___/ ___/___ \/ / / /  / / __  / _ \\
-${green}/ /__(__  )___/ / /_/ /  / / /_/ /  __/
-${yellow}\___/____/_____/\____/  /_/\__,_/\___/
-
-
-${yellow}   .
-${green} _.|.  ,*._ ._  _  _  _. _ ._ _
-${magenta}(_]| \/ |[ )[ )(/,(_)(_.(_)[ | )
-
+${white}                          ____     __       __  
+${blue}  __  ______  ___  ____  / __/__  / /______/ /_ 
+${magenta} / / / / __ \/ _ \/ __ \/ /_/ _ \/ __/ ___/ __ \\
+${green}/ /_/ / / / /  __/ /_/ / __/  __/ /_/ /__/ / / /
+${yellow}\__,_/_/ /_/\___/\____/_/  \___/\__/\___/_/ /_/ 
 
 ${lc}${USER}@${host}
 
@@ -98,7 +92,5 @@ ${ic}UI: ${ui}
 ${ic}CPU: ${cpu} @ ${cpuspeed} MHz
 ${ic}Memory Usage: ${memory_usage}
 ${ic}CPU Usage: ${cpu_usage} percent
-
-${lc}Script: ufetch ubuntu, modified with memory and CPU usage
 
 EOF
