@@ -91,6 +91,6 @@ ${white}Shell: GNU ${shell}
 ${blue}UI: ${ui}
 ${magenta}CPU: ${cpu} @ ${cpuspeed} MHz
 ${green}Memory Usage: ${memory_usage}
-${yellow}CPU Usage: ${cpu_usage} percent
+${white}CPU Usage: ${cpu_usage} percent
 
 EOF
