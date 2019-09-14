@@ -83,14 +83,14 @@ ${yellow}\__,_/_/ /_/\___/\____/_/  \___/\__/\___/_/ /_/
 
 ${lc}${USER}@${host}
 
-${ic}OS: ${os}
-${ic}Kernel: ${kernel}
-${ic}Uptime: ${uptime}
-${ic}Packages: ${packages} packages
-${ic}Shell: GNU ${shell}
-${ic}UI: ${ui}
-${ic}CPU: ${cpu} @ ${cpuspeed} MHz
-${ic}Memory Usage: ${memory_usage}
-${ic}CPU Usage: ${cpu_usage} percent
+${yellow}OS: ${os}
+${green}Kernel: ${kernel}
+${magenta}Uptime: ${uptime}
+${blue}Packages: ${packages} packages
+${white}Shell: GNU ${shell}
+${blue}UI: ${ui}
+${magenta}CPU: ${cpu} @ ${cpuspeed} MHz
+${green}Memory Usage: ${memory_usage}
+${yellow}CPU Usage: ${cpu_usage} percent
 
 EOF
