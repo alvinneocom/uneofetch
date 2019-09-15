@@ -14,11 +14,11 @@ cd ./uneofetch-installation
 fi
 git clone https://github.com/alvinneocom/uneofetch.git
 cd uneofetch
-installation=/bin/uneofetch
+installation=usr/bin/uneofetch
 if test -f $installation; then
-rm /bin/uneofetch
+rm usr/bin/uneofetch
 fi
-cp ./uneofetch.sh /bin/uneofetch
+cp ./uneofetch.sh usr/bin/uneofetch
 cd /bin
 chmod +x uneofetch
 cd ~
