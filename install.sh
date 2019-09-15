@@ -6,7 +6,6 @@ cd ~
 mkdir uneofetch-installation
 cd ./uneofetch-installation
 git clone https://github.com/alvinneocom/uneofetch.git
-sleep 60
 cd uneofetch
 cp ./uneofetch.sh /bin/uneofetch
 cd /bin
