@@ -3,8 +3,8 @@
 # This script installs uneofetch directly from the Github.
 
 cd ~
-folder=~/uneofetch-installation
-if test -f $folder; then
+folder=./uneofetch-installation
+if test -d $folder; then
 echo "Please delete the uneofetch-installation directory. After this install, delete the uneofetch-installation-1 directory."
 mkdir uneofetch-installation-1
 cd ./uneofetch-installation-1
@@ -15,7 +15,7 @@ fi
 git clone https://github.com/alvinneocom/uneofetch.git
 cd uneofetch
 installation=/bin/uneofetch
-if test -f $installation then
+if test -f $installation; then
 rm /bin/uneofetch
 fi
 cp ./uneofetch.sh /bin/uneofetch
