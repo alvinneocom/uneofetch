@@ -4,7 +4,7 @@
 
 cd ~
 folder=~/uneofetch-installation
-if test -f $folder then
+if test -f $folder; then
 echo "Please delete the uneofetch-installation directory. After this install, delete the uneofetch-installation-1 directory."
 mkdir uneofetch-installation-1
 cd ./uneofetch-installation-1
