@@ -1,1 +1,2 @@
-# were you looking for the install branch?
+Installer for uneofetch.
+Currently still in the works.
