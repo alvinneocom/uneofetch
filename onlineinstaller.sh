@@ -1,4 +1,4 @@
-# Run as root to install on Ubuntu/Debian-based distros.
+# Run this to install on Ubuntu/Debian-based distros.
 # Some components of uneofetch don't work on other distros. Keep this in mind.
 # This script installs uneofetch directly from the Github.
 
