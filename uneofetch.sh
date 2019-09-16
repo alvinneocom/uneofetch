@@ -18,8 +18,8 @@ cpu_usage=`top -bn1 | grep load | awk '{printf "%.2f\n", $(NF-2)}'`
 # credit to zanna on stackoverflow for figuring out sed
 # https://askubuntu.com/questions/988440/how-do-i-get-the-model-name-of-my-processor
 cpu=`lscpu | sed -nr '/Model name/ s/  / /g; s/.*:\s*(.*) @ .*/\1/p'`
-# got this one from neofetch
-cpuspeed=`line=$(head -n 1 /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq)`
+# see https://askubuntu.com/a/218586
+cpuspeed=`head -n 1 /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq`
 
 ## UI DETECTION
 
