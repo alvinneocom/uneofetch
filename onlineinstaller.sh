@@ -11,7 +11,7 @@ chmod +x ./uneofetch.sh
 cp ./uneofetch.sh /usr/bin/uneofetch
 cd ..
 rm -r uneofetch
-echo "Your installation is complete."
+echo "Your installation is complete.\n"
 echo "uneofetch is still in early stages. Please report any bugs in Issues.\n"
 echo "Notes: uneofetch is based off of ufetch Ubuntu. Some functions will fail to work in other distros.\n"
 echo "The path directory may not be bin all the time."
