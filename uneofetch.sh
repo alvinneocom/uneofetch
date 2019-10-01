@@ -19,8 +19,8 @@ cpu_usage=`top -bn1 | grep load | awk '{printf "%.2f\n", $(NF-2)}'`
 # https://askubuntu.com/questions/988440/how-do-i-get-the-model-name-of-my-processor
 cpu=`lscpu | sed -nr '/Model name/ s/  / /g; s/.*:\s*(.*) @ .*/\1/p'`
 # see https://askubuntu.com/a/218586
-# cpuspeed=`head -n 1 /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq`
-# this doesn't work on ubuntu for some weird reason, but it does work on arch
+cpuspeed=`head -n 1 /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq`
+# needs more research
 
 ## UI DETECTION
 
