@@ -89,7 +89,7 @@ ${yellow}OS: ${os}
 ${green}Kernel: ${kernel}
 ${magenta}Uptime: ${uptime}
 ${blue}Packages: ${packages} packages
-${white}Shell: GNU ${shell}
+${white}Shell: ${shell}
 ${blue}UI: ${ui}
 ${magenta}CPU: ${cpu} @ ${cpuspeed} MHz
 ${green}Memory Usage: ${memory_usage}
