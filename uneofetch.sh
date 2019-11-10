@@ -91,7 +91,7 @@ ${magenta}Uptime: ${uptime}
 ${blue}Packages: ${packages} packages
 ${white}Shell: ${shell}
 ${blue}UI: ${ui}
-${magenta}CPU: ${cpu} @ ${cpuspeed} MHz
+${magenta}CPU: ${cpu} @ ${cpuspeed} Hz
 ${green}Memory Usage: ${memory_usage}
 ${white}CPU Usage: ${cpu_usage} average
 
