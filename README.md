@@ -11,4 +11,5 @@ screenshot (0.0.2):
 installation:
 ```
 wget https://raw.githubusercontent.com/alvinneocom/uneofetch/master/onlineinstaller.sh
-sh onlineinstaller.sh```
+sh onlineinstaller.sh
+```
